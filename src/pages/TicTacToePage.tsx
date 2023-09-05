@@ -75,7 +75,7 @@ const TicTacToePage = () => {
         // }
     }
 
-    const handleButtonClick = (index, xTurn) => {
+    const handleButtonClick = (index: number, xTurn: boolean) => {
         const winner = whoIsTheWinner();
 
         if(winner == "X"){
